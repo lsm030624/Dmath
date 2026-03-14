@@ -18,9 +18,10 @@
 ### 2.2 Translation
 
 Using the propositions
-\bullet p = "I study"
-\bullet q = "I will pass the course"
-\bullet r = "The professor accepts bribes"
+
++ $p$ = "I study"
++ $q$ = "I will pass the course"
++ $r$ = "The professor accepts bribes"
 
 Translate the following into statements of propositional logic:
 1. If I do not study, then I will only pass the course if the professor accepts bribes.   
