@@ -14,3 +14,22 @@
 |6|IF P THEN Q EQUIVALENT TO NOT P OR Q|$P \rightarrow Q\equiv \neg P \vee Q$|
 |7|Euler's Identity|$e^{i\pi}+1=0$|
 |8|SUM of n from 1 to 100 Equals 5050|$\displaystyle\sum_{n=1}^{100}n=5050$|
+
+### 2.2 Translation
+
+Using the propositions
+\bullet p = "I study"
+\bullet q = "I will pass the course"
+\bullet r = "The professor accepts bribes"
+
+Translate the following into statements of propositional logic:
+1. If I do not study, then I will only pass the course if the professor accepts bribes.   
+   $\neg p \rightarrow(r \rightarrow q)$
+2. If the professor accepts bribes, then I do not study.   
+   $r\rightarrow \neg p$
+3. The professor does not accept bribes, but I study and will pass the course.   
+   $\neg r \wedge p \wedge q$
+4. If I study, the professor will accept bribes and I will pass the course.   
+   $p \rightarrow (r \wedge q)$
+5. I will not pass the course but the professor accepts bribes.   
+    $\neg q \wedge r$
